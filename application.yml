@@ -16,9 +16,6 @@ spring:
     username: postgres
     password: root
     driver-class-name: org.postgresql.Driver
-
-
-
 management:
   endpoints:
     web:
