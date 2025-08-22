@@ -11,6 +11,12 @@ spring:
     database-plateform: org.hibernate.dialect.PostgreSQLDialect
 
 
+    url: jdbc:postgresql://localhost:3307/notificationservice
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+
+
 
 
 management:
