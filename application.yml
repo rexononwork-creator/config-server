@@ -30,3 +30,14 @@ management:
 springdoc:
   swagger-ui:
     path: /swagger-ui.html
+
+
+eureka:
+  instance:
+    prefer-ip-address: true
+
+  client:
+  fetch-registry: true
+  registry-with-eureka: true
+  service-url:
+    defaultZone: http://localhost:9191/eureka
