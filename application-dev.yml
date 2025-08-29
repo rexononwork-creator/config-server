@@ -16,19 +16,19 @@
 #     password: root
 #     driver-class-name: org.postgresql.Driver
 
-springdoc:
-  swagger-ui:
-    path: /swagger-ui.html
+# springdoc:
+#   swagger-ui:
+#     path: /swagger-ui.html
 
 
-eureka:
-  instance:
-    prefer-ip-address: true
+# eureka:
+#   instance:
+#     prefer-ip-address: true
 
-  client:
-  fetch-registry: true
-  registry-with-eureka: true
-  service-url:
-    defaultZone: http://localhost:9191/eureka
+#   client:
+#   fetch-registry: true
+#   registry-with-eureka: true
+#   service-url:
+#     defaultZone: http://localhost:9191/eureka
 
 
