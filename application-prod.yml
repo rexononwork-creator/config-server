@@ -1,25 +1,7 @@
 
-# spring:
-#   datasource:
-#     url: jdbc:postgresql://localhost:3307/userservice
-#     username: postgres
-#     password: root
-#     driver-class-name: org.postgresql.Driver
-#   jpa:
-#     hibernate:
-#       ddl-auto: update
-#     show-sql: true
-#     database-plateform: org.hibernate.dialect.PostgreSQLDialect
-
-
-#     url: jdbc:postgresql://localhost:3307/notificationservice
-#     username: postgres
-#     password: root
-#     driver-class-name: org.postgresql.Driver
-
-# springdoc:
-#   swagger-ui:
-#     path: /swagger-ui.html
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
 
 eureka:
   instance:
